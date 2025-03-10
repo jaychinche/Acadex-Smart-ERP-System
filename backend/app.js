@@ -20,7 +20,7 @@ const Notification = require("./models/Notification");
 
 
 const cors = require("cors");
-const bcrypt = require('bcrypt');
+const bcryptjs = require('bcryptjs');
 
 dotenv.config();
 const app = express();  
