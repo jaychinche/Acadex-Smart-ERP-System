@@ -61,7 +61,7 @@ export default function AddEmployee() {
     setLoading(true);
     const token = localStorage.getItem('token');
     try {
-      const response = await axios.post("http://localhost:4000/addemp", formData, {
+      const response = await axios.post("https://acadex-smart-erp-system-1.onrender.com/addemp", formData, {
         withCredentials: true,
         headers: {
           'x-auth-token': token, 
